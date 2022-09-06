@@ -6,3 +6,4 @@ If the path be beautiful, let us not ask where it leads
 Create a script that lists environment variables.
 Create a script that lists all local variables and environment variables, and functions.
 Create a script that creates a new local variable.
+Create a script that creates a new global variable.
