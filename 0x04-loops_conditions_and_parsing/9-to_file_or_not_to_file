@@ -6,14 +6,14 @@ if [ -e "$file_s" ]
 then
 
     echo "school file exists"
-    if [ -s "$file_h" ]
+    if [ -s "$file_s" ]
     then
         echo "school file is not empty"
     else
         echo "school file is empty"
     fi
 
-    if [ -f "$file_h" ]
+    if [ -f "$file_s" ]
     then
         echo "school is a regular file"
     fi
