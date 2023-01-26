@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Script to display "Best School", "bad luck" and "good luck"
+s=1
+while [ "$s" -le 10 ]
+do
+	if [ "$s" -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ "$s" -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	s=$((s + 1))
+done
+s=$s
