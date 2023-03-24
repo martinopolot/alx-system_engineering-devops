@@ -1,4 +1,4 @@
-# install flask -v2.1.0 from pip3
+# install flask -v 2.1.0 from pip3
 
 
 exec { 'install python packages':
