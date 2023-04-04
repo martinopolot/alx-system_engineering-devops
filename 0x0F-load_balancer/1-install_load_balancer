@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # setting up nginx server
 exec { 'update':
   command  => 'sudo apt-get update',
