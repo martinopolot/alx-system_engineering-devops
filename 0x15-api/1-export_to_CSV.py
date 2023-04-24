@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     row = []
     res_2 = get('https://jsonplaceholder.typicode.com/users')
-    data2 = res_2.json()
+    data_2 = res_2.json()
 
     for i in data_2:
         if i['id'] == int(argv[1]):
